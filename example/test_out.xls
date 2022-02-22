@@ -1,0 +1,10 @@
+# N represent total num of annotated genes in the whole genome
+# n represent total num of interested genes(Here is the differential expressed genes. )
+# k represent num interested genes that belong to a specific term
+# M represent num annotated genes that belong to a specific term
+# backgroupd: 4867 genes in total, while 2160 without KO annotation, 1035 has no map, the left 1672 genes were used for KEGG over representation analysis. 
+# interested gene list: 100 genes in total, while 16 without KO annotation, 34 without map, the left 50 genes were used for KEGG over representation analysis.
+term_name	term	k/n	M/N	p-value	included genes
+00650 Butanoate metabolism	ko00650	4/50	43/1672	0.037019262799457	WP_010999996.1;WP_010999995.1;WP_003261911.1;WP_003264033.1
+00190 Oxidative phosphorylation	ko00190	5/50	65/1672	0.04168346620261343	WP_003262709.1;WP_003264033.1;WP_003261939.1;WP_003261941.1;WP_003261929.1
+03010 Ribosome	ko03010	18/50	54/1672	7.771561172376096e-16	WP_003265883.1;WP_003271630.1;WP_003265519.1;WP_003264123.1;WP_003262958.1;WP_003264301.1;WP_003264131.1;WP_009241896.1;WP_004634470.1;WP_003264110.1;WP_003262970.1;WP_003262397.1;WP_003264141.1;WP_003262398.1;WP_003264132.1;WP_003265480.1;WP_003264114.1;WP_003264129.1
